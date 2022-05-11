@@ -65,7 +65,7 @@ body {
 }
 
 .image {
-    position: inherit;
+    float: left;
     width: 300px;
     height: 300px;
     top: 15%;
