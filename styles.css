@@ -1,6 +1,10 @@
-div {
-    width: 500px;
-    height: 500px;
+/******** index.html ********/
+.index-block {
+    position: fixed;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
     background-color: aquamarine;
     border-radius: 15px;
     border: 2px solid blue;
@@ -11,7 +15,7 @@ div {
     text-align: center;   
 }
 
-ul {
+.list {
     font-weight: bolder;
     width: 200px;
     height: 120px;
@@ -21,4 +25,49 @@ ul {
     border-radius: 10px;
     border: 1px solid black;
     padding-top: 5%;
+}
+
+/********** recipes **********/
+body {
+    position: absolute;
+}
+
+.title {
+    position: inherit;
+    color: green;
+    font-size: 48px;
+    text-align: center;
+    background-color: red;
+    width: 40%;
+    height: 8%;
+    left: 30%;
+}
+
+.description {
+    position: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(59, 129, 65);
+    border-radius: 10px;
+    border: 1px solid black;
+    top: 15%;
+    width: 80%;
+    min-height: 400px;
+    height: auto;
+}
+
+.desc {
+    position: inherit;
+    color: blue;
+    font-display: unset;
+    font-size: 20px;
+    margin-left: 325px;
+}
+
+.image {
+    position: inherit;
+    width: 300px;
+    height: 300px;
+    top: 15%;
+    margin-top: 1%;
+    margin-left: 1%;
 }
